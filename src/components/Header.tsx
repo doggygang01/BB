@@ -8,17 +8,15 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 rounded-xl overflow-hidden group">
+          <div className="flex items-center space-x-2">
+            <div className="w-12 h-12 rounded-xl overflow-hidden">
               <img 
-                src="/blockbreach-logo.png" 
+                src="/BlockBreach Social Media Icon Square.png" 
                 alt="BlockBreach Logo" 
-                className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300"
+                className="w-full h-full object-cover"
               />
             </div>
-            <span className="text-xl font-bold text-white tracking-wide hover:text-[#8B5CF6] transition-colors duration-300">
-              BLOCKBREACH
-            </span>
+            <span className="text-xl font-bold text-white tracking-wide">BLOCKBREACH</span>
           </div>
 
           {/* Desktop Navigation */}
